@@ -1,11 +1,11 @@
-package geo4go
+package geo_test
 
 import (
-	"fmt"
+	"github.com/smartwalle/geo"
 	"testing"
 )
 
 func TestDistance(t *testing.T) {
 	// https://lbs.amap.com/api/javascript-api/example/calcutation/calculate-distance-between-two-markers
-	fmt.Println(Distance(Point{39.922501, 116.387271}, Point{39.923423, 116.368904}))
+	t.Log(geo.Distance(geo.Point{Latitude: 39.922501, Longitude: 116.387271}, geo.Point{Latitude: 39.923423, Longitude: 116.368904}))
 }

@@ -1,1 +1,1 @@
-package geo4go
+package geo_test

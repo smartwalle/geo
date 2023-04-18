@@ -1,4 +1,4 @@
-package geo4go
+package geo
 
 type Point struct {
 	Latitude  float64 // 纬度

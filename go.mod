@@ -1,3 +1,3 @@
-module github.com/smartwalle/geo4go
+module github.com/smartwalle/geo
 
 go 1.12

@@ -1,4 +1,4 @@
-package geo4go
+package geo
 
 import "math"
 
